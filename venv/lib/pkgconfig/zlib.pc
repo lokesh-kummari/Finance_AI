@@ -1,0 +1,13 @@
+prefix=/Users/lokesh/Desktop/AGENTICAI/venv
+exec_prefix=/Users/lokesh/Desktop/AGENTICAI/venv
+libdir=/Users/lokesh/Desktop/AGENTICAI/venv/lib
+sharedlibdir=/Users/lokesh/Desktop/AGENTICAI/venv/lib
+includedir=/Users/lokesh/Desktop/AGENTICAI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
